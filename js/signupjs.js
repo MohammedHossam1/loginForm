@@ -9,7 +9,6 @@ if (localStorage.getItem("info") != null) {
     usersInfo = JSON.parse(localStorage.getItem("userInfo"))
 }
 
-var emailRegex=//
 signUpBtn.addEventListener("click", function () {
     var userObject = {
         name: userName.value,
